@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 
 class SpashScreenActivity : AppCompatActivity() {
-    private val SPLASH_TIME: Long = 3000
+    private val SPLASH_TIME: Long = 4000
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide() // Masquer l'actionbar
