@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:src="@drawable/other"
+        android:layout_width="110dp"
+        android:layout_height="110dp"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_othor"
+            android:textStyle="bold"
+            android:text="A propos :"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_contact"
+            android:text="Contact: (+243)97 17 37 160"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_othor"/>
+
+        <TextView
+            android:id="@+id/text_desc"
+            android:text="@string/about_developper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_contact"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

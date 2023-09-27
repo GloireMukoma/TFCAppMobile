@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/more_icon_menu"
+        android:title="Voir"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/more1_icon_menu"
+        android:title="Partager"
+        app:showAsAction="never"/>
+
+</menu>
