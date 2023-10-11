@@ -95,4 +95,11 @@
         Cette application a été développée par l\'étudiant Gloire Mukoma,
         spécialisé en génie logiciel, dans le cadre de son travail de fin de cycle.
     </string>
+    <string name="phraseaccueil1">
+        "Explorez de nouvelles opportunités de formation
+        professionnelle en ligne avec notre application."
+    </string>
+    <string name="phraseaccueil2">
+        Nos cours sont accompagnés des photos et vidéos d\'illustration a l\'appui
+    </string>
 </resources>

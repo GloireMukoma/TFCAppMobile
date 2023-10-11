@@ -14,7 +14,7 @@ class SpashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_spash_screen)
 
         Handler().postDelayed({
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, AccueilActivity::class.java))
             // Ferme l'activité d'écran de chargement
             finish()
         }, SPLASH_TIME)
