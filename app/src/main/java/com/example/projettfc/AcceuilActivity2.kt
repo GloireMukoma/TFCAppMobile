@@ -3,7 +3,10 @@ package com.example.projettfc
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
+import android.widget.Toast
 
 class AcceuilActivity2 : AppCompatActivity() {
 
@@ -18,5 +21,23 @@ class AcceuilActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.menuLoginId ->{
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.menuAboutId ->{
+                Toast.makeText(this, "Item more clicked", Toast.LENGTH_LONG).show()
+            }
+
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
